@@ -332,7 +332,7 @@ section.best-seller h1 {
     overflow: hidden;
 }
 
-.card {
+.cardMain {
     background-color: white;
     box-shadow: 3px 5px 10px 0px #00000057;
     width: 350px;
@@ -342,7 +342,7 @@ section.best-seller h1 {
 direction: ltr;
 }
 
-.card .img {
+.cardMain .img {
     width: 100%;
     height: 200px;
     background-color: white;
@@ -355,26 +355,26 @@ direction: ltr;
     margin-bottom: 10px;
 }
 
-.card .info .title {
+.cardMain .info .title {
     font-weight: bold;
     font-size: 20px;
 text-align: center;
 }
-.card .info .price{
+.cardMain .info .price{
     text-align: center;
     margin: 10px 0;
 }
-.card .info .price span:nth-child(1) {
+.cardMain .info .price span:nth-child(1) {
     color: #00000064;
     text-decoration: line-through;
 }
 
-.card .info .price span:nth-child(2) {
+.cardMain .info .price span:nth-child(2) {
     font-size: 22px;
     font-weight: bold;
 }
 
-.card .info .price span:nth-child(3) {
+.cardMain .info .price span:nth-child(3) {
     color: rgb(22, 199, 63);
     font-weight: bold;
     font-size: 18px;
