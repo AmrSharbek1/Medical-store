@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="متجر Amr يوفر أفضل الأدوات الطبية بأسعار تنافسية. تسوق الآن واحصل على أفضل المنتجات الطبية">
+    <!-- css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Amr Store - متجر الأدوات الطبية والمستلزمات الصحية</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                amr store
+            </div>
+            <div class="search-box">
+                <input type="text" name="" placeholder="ابحث عن المنتج المطلوب" id="">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="header-actions">
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <a href="#" class="wishlist-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </a>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="icon">
+                <i class="fas fa-bars" id="menu-icon"></i>
+                <i class="fas fa-times close-icon" id="close-icon"></i>
+            </label>
+            <ul id="list">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="shop.html" class="active">المتجر</a></li>
+                <li><a href="services.html">الخدمات</a></li>
+                <li><a href="contact-us.html">اتصل بنا</a></li>
+                <li class="mobile-only"><a href="#"><i class="fa-solid fa-cart-shopping"></i> السلة</a></li>
+                <li class="mobile-only"><a href="#"><i class="fa-solid fa-heart"></i> المفضلة</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="categories shop-categories">
+            <div class="container">
+                <h2 class="section-title">تصفح حسب التصنيف</h2>
+                <div class="category-list">
+                    <a data-aos="fade-up" data-aos-duration="1000" href="#" class="category-card">
+                        <img src="img/stethoscope_3147004.png" alt="سماعات طبية">
+                        <span>سماعات طبية</span>
+                    </a>
+                    <a data-aos="fade-up" data-aos-duration="1000" href="#" class="category-card">
+                        <img src="img/blood-pressure_8420822 (1).png" alt="أجهزة ضغط">
+                        <span>أجهزة ضغط</span>
+                    </a>
+                    <a data-aos="fade-up" data-aos-duration="1000" href="#" class="category-card">
+                        <img src="img/medical_13341754.png" alt="موازين حرارة">
+                        <span>موازين حرارة</span>
+                    </a>
+                    <a data-aos="fade-up" data-aos-duration="1000" href="#" class="category-card">
+                        <img src="img/first-aid-kit_12307317.png" alt="جميع الفئات">
+                        <span>مستلزمات تمريض</span>
+                    </a>
+                    <a data-aos="fade-up" data-aos-duration="1000" href="#" class="category-card">
+                        <img src="img/medical-tools_2522659.png" alt="جميع الفئات">
+                        <span>ادوات جراحية</span>
+                    </a>
+                    <a data-aos="fade-up" data-aos-duration="1000" href="#" class="category-card">
+                        <img src="img/microscope_2522584.png" alt="جميع الفئات">
+                        <span>معدات معامل</span>
+                    </a>
+                    <a data-aos="fade-up" data-aos-duration="1000" href="#" class="category-card">
+                        <img src="img/hygiene-product_18397392.png" alt="جميع الفئات">
+                        <span>منتجات العناية بالمرضى</span>
+                    </a>
+                    <a data-aos="fade-up" data-aos-duration="1000" href="#" class="category-card">
+                        <img src="img/medical_3702622.png" alt="جميع الفئات">
+                        <span>عرض الكل</span>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <section class="Browse-by-category">
+            <div class="container">
+                <h2 class="section-title">تصفح حسب </h2>
+                <div class="button-group filter-button-group controls" data-aos="fade-up" data-aos-duration="1000">
+                    <button class="control-btn active" data-name="all">الكل</button>
+                    <button class="control-btn " data-name="price">السعر</button>
+                    <button class="control-btn " data-name="Highest-rated">الاعلى تقيما</button>
+                    <button class="control-btn " data-name="best-seller">الاكثر مبيعا</button>
+                    <button class="control-btn  " data-name="new-products">منتجات جديدة</button>
+                </div>
+                <div class="container-cards " data-aos="fade-up" data-aos-duration="1000">
+                    <div class="newCard show" data-name="Highest-rated">
+                        <div class="headerCard">
+                            <div class="shopName">
+                                amr store
+                            </div>
+                            <div class="logoCompany">
+                                <p>الاعلى تقيما</p>
+                            </div>
+                        </div>
+                        <div class="imgProdact">
+                            <img src="img/medicine-background-with-elements.png" alt="">
+                        </div>
+                        <div class="footerCard">
+                            <div class="nameProdact">
+                                سماعة طبية
+                            </div>
+                            <div class="evaluation">
+                                <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+                            <div class="prise">
+                                49.99$
+                            </div>
+                            <div class="btnsCard">
+                                <button class="addShop"><i class="fa-solid fa-cart-shopping"></i> </button>
+                                <button class="more">المزيد</button>
+                                <button class="addFav"><i class="fa-solid fa-heart"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newCard show" data-name="price">
+                        <div class="headerCard">
+                            <div class="shopName">
+                                amr store
+                            </div>
+                            <div class="logoCompany">
+                                <p>سعر مناسب</p>
+                            </div>
+                        </div>
+                        <div class="imgProdact">
+                            <img src="img/medicine-background-with-elements.png" alt="">
+                        </div>
+                        <div class="footerCard">
+                            <div class="nameProdact">
+                                سماعة طبية
+                            </div>
+                            <div class="evaluation">
+                                <span>⭐⭐⭐⭐</span>
+                            </div>
+                            <div class="prise">
+                                49.99$
+                            </div>
+                            <div class="btnsCard">
+                                <button class="addShop"><i class="fa-solid fa-cart-shopping"></i> </button>
+                                <button class="more">المزيد</button>
+                                <button class="addFav"><i class="fa-solid fa-heart"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newCard show" data-name="best-seller">
+                        <div class="headerCard">
+                            <div class="shopName">
+                                amr store
+                            </div>
+                            <div class="logoCompany">
+                                <p>الاكثر مبيعا</p>
+                            </div>
+                        </div>
+                        <div class="imgProdact">
+                            <img src="img/medicine-background-with-elements.png" alt="">
+                        </div>
+                        <div class="footerCard">
+                            <div class="nameProdact">
+                                سماعة طبية
+                            </div>
+                            <div class="evaluation">
+                                <span>⭐⭐⭐⭐</span>
+                            </div>
+                            <div class="prise">
+                                49.99$
+                            </div>
+                            <div class="btnsCard">
+                                <button class="addShop"><i class="fa-solid fa-cart-shopping"></i> </button>
+                                <button class="more">المزيد</button>
+                                <button class="addFav"><i class="fa-solid fa-heart"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newCard show"  data-name="new-products">
+                        <div class="headerCard">
+                            <div class="shopName">
+                                amr store
+                            </div>
+                            <div class="logoCompany">
+                                <p>جديد</p>
+                            </div>
+                        </div>
+                        <div class="imgProdact">
+                            <img src="img/medicine-background-with-elements.png" alt="">
+                        </div>
+                        <div class="footerCard">
+                            <div class="nameProdact">
+                                سماعة طبية
+                            </div>
+                            <div class="evaluation">
+                                <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+                            <div class="prise">
+                                49.99$
+                            </div>
+                            <div class="btnsCard">
+                                <button class="addShop"><i class="fa-solid fa-cart-shopping"></i> </button>
+                                <button class="more">المزيد</button>
+                                <button class="addFav"><i class="fa-solid fa-heart"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newCard show">
+                        <div class="headerCard">
+                            <div class="shopName">
+                                amr store
+                            </div>
+                            <div class="logoCompany">
+                                <p>الاعلى تقيما</p>
+                            </div>
+                        </div>
+                        <div class="imgProdact">
+                            <img src="img/medicine-background-with-elements.png" alt="">
+                        </div>
+                        <div class="footerCard">
+                            <div class="nameProdact">
+                                سماعة طبية
+                            </div>
+                            <div class="evaluation">
+                                <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+                            <div class="prise">
+                                49.99$
+                            </div>
+                            <div class="btnsCard">
+                                <button class="addShop"><i class="fa-solid fa-cart-shopping"></i> </button>
+                                <button class="more">المزيد</button>
+                                <button class="addFav"><i class="fa-solid fa-heart"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-col">
+                <h3>Amr Store</h3>
+                <p>متجر متخصص في توفير الأدوات والمستلزمات الطبية بجودة عالية وأسعار تنافسية.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">من نحن</a></li>
+                    <li><a href="#">المنتجات</a></li>
+                    <li><a href="#">اتصل بنا</a></li>
+                    <li><a href="#">الشروط والأحكام</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>اتصل بنا</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> سوريا,حمص</li>
+                    <li><i class="fas fa-phone"></i> 0954546916</li>
+                    <li><i class="fas fa-envelope"></i> amrsh506@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="year"></span> جميع الحقوق محفوظة لـ Amr Store</p>
+        </div>
+    </footer>
+    <!-- sweetalert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(); // تهيئة المكتبة
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
